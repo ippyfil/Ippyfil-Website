@@ -8,8 +8,6 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: November 2019
-client: Start Bootstrap
-category: Web Development
 description: This beer was a special edition made for the crowdfunding campaing. It's a Blonde Ale with Golding and Nugget organic hops from our garden.
 ---
 
