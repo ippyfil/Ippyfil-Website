@@ -2,16 +2,16 @@ url: https://ippyfil.github.io
 baseurl: /Ippyfil-Website/
 
 # Site settings
-title: Sou mesmo totó
-email: your-email@domain.com
+title: Ippyfil
+email: ippyfil@posteo.net
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Filipe Matos
   pic: 1
-  position: Lead Designer
+  position: Head Brewer
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Inês Eugénio
   pic: 2
-  position: Lead Marketer
+  position: Head Brewer
   social:
     - title: twitter
       url: #
@@ -30,35 +30,28 @@ people:
       url: #
     - title: linkedin
       url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+#- name: Diana Petersen
+#  pic: 3
+#  position: Lead Developer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: instagram
+    url: https://www.instagram.com/ippyfil_brewery/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url:https://www.facebook.com/ippyfil/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Rua David Lopes 23 A-B
+  - line: Lisboa 
 
 # Build settings
 markdown: kramdown
