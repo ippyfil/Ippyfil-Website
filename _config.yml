@@ -12,24 +12,24 @@ people:
 - name: Filipe Matos
   pic: 1
   position: Head Brewer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  #social:
+  #  - title: twitter
+  #    url: #
+  #  - title: facebook
+  #    url: #
+  #  - title: stack-overflow
+  #    url: #
 
 - name: Inês Eugénio
   pic: ines
   position: Head Brewer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  #social:
+  #  - title: twitter
+  #    url: #
+  #  - title: facebook
+  #    url: #
+  #  - title: linkedin
+  #    url: #
 #- name: Diana Petersen
 #  pic: 3
 #  position: Lead Developer
