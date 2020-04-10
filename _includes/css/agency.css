@@ -265,6 +265,18 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.navbar-logocrop {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+@media(max-width:768px) {
+    .navbar-logocrop {
+        margin-top: 5px;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
