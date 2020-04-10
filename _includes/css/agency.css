@@ -274,8 +274,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-logocrop img {
-    height: 100%;
-    width: auto;
+    height: 60px;
+    width: 60px;
 }
 
 header {
