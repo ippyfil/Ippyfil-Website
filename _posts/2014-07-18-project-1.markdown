@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2019-11-15
 img: goldcrowd.jpg
-thumbnail: goldcrowd.png
+thumbnail: goldcrowd.jpg
 alt: image-alt
 project-date: November 2019
 description: This beer was a special edition made for the crowdfunding campaing. It's a Blonde Ale with Golding and Nugget organic hops from our garden.
