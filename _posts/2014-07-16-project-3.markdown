@@ -1,5 +1,5 @@
 ---
-title: Xmastime
+title: Xmas Time
 subtitle:  Christmas Ale
 layout: default
 modal-id: 3
