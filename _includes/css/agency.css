@@ -268,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-logocrop {
     display: inline-block;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 52%;
 }
 
 @media(max-width:768px) {
