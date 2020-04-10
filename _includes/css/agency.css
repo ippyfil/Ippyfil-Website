@@ -267,11 +267,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-logocrop {
     display: inline-block;
-    width: 55px;
-    height: 55px;
     overflow: hidden;
     border-radius: 50%;
-    margin-top: 5px;
+}
+
+@media(max-width:768px) {
+    .navbar-logocrop {
+        margin-top: 5px;
+    }
 }
 
 header {
