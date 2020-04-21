@@ -856,6 +856,23 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+
+@media(min-width:768px) {
+    .portfolio-modal .modal-content p {
+        text-align: left;
+    }
+
+    .portfolio-modal .modal-content ul.list-inline {
+        text-align: left;
+    }
+
+    /* Comment to "de"center text*/
+    .portfolio-modal .modal-content .column-container {
+        display: flex;
+        align-items: center;
+    }
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};
