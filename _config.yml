@@ -67,8 +67,11 @@ social:
 contact:
   - address: +351 919237206
     icon: phone
-  - address: Rua David Lopes 23 A-B
-    icon: map-marker-alt
+  - address: 
+      - line: Rua David Lopes 23 A
+      - line: 1920-426 Lisboa
+      - line: Portugal
+    icon: map-marker
   - address: ippyfil@posteo.net
     icon: at
 
