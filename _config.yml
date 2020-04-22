@@ -23,6 +23,22 @@ people:
 - name: Inês Eugénio
   pic: ines
   position: Head Brewer
+#  pt:
+# -  name: Filipe Matos
+#    pic: 1
+#    position: Cervejeiro
+  #social:
+  #  - title: twitter
+  #    url: #
+  #  - title: facebook
+  #    url: #
+  #  - title: stack-overflow
+  #    url: #
+
+#  - name: Inês Eugénio
+#    pic: ines
+#    position: Cervejeira
+
   #social:
   #  - title: twitter
   #    url: #
@@ -49,12 +65,12 @@ social:
     url: https://www.facebook.com/ippyfil/
 
 contact:
-  - address: 966 666 666
+  - address: +351 919237206
     icon: phone
-  - address: 966 666 666
-    icon: phone
-  - address: 966 666 666
-    icon: phone
+  - address: Rua David Lopes 23 A-B
+    icon: at
+  - address: ippyfil@posteo.net
+    icon: at
 
 # Postal address (add as many lines as necessary)
 address:
