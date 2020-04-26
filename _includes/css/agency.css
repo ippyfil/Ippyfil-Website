@@ -146,6 +146,11 @@ fieldset[disabled] .btn-primary.active {
     background-image: none;
 }
 
+.open .dropdown-menu {
+    background-color: #222;
+}
+
+
 .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
@@ -216,6 +221,10 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
+.navbar-default .nav li span {
+    color: #fff;
+}
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
@@ -262,6 +271,12 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-default .nav li a.lang-link {
+        padding-right: 2px;
+        padding-left: 2px;
+        display: inline-block;
     }
 }
 
@@ -364,6 +379,12 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-logo {
+    border-radius: 50%;
+    padding: 10px;
+    background: #{{ site.data.template.color.primary }};
 }
 
 #portfolio .portfolio-item {
@@ -912,3 +933,55 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+@include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $blue-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+

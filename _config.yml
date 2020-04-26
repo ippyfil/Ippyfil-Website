@@ -1,5 +1,6 @@
 url: https://ippyfil.github.io
 baseurl: /Ippyfil-Website/
+index: pt
 
 # Site settings
 title: Ippyfil
@@ -9,9 +10,13 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
+
 - name: Filipe Matos
   pic: 1
-  position: Head Brewer
+  en:
+    position: Head Brewer
+  pt:
+    position: Cervejeiro
   #social:
   #  - title: twitter
   #    url: #
@@ -22,7 +27,10 @@ people:
 
 - name: Inês Eugénio
   pic: ines
-  position: Head Brewer
+  en:
+    position: Head Brewer
+  pt:
+    position: Cervejeiro
 #  pt:
 # -  name: Filipe Matos
 #    pic: 1
@@ -67,10 +75,7 @@ social:
 contact:
   - address: +351 919237206
     icon: phone
-  - address: 
-      - line: Rua David Lopes 23 A
-      - line: 1920-426 Lisboa
-      - line: Portugal
+  - address: Rua David Lopes 23 A-B
     icon: map-marker
   - address: ippyfil@posteo.net
     icon: at

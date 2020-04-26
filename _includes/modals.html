@@ -1,4 +1,5 @@
 <!-- Portfolio Modals -->
+{% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
@@ -16,7 +17,7 @@
             <hr class="star-primary">
             <div class="row  column-container">
               <div class="col-sm-8">
-                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
               </div>
               <div class="col-sm-4">
                 <p>{{ post.description }}</p>
