@@ -384,6 +384,7 @@ section h3.section-subheading {
 .service-logo {
     border-radius: 50%;
     padding: 10px;
+    margin: 10px;
     background: #{{ site.data.template.color.primary }};
 }
 
