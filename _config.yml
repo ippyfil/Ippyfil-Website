@@ -9,9 +9,13 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
+
 - name: Filipe Matos
   pic: 1
-  position: Head Brewer
+  en:
+    position: Head Brewer
+  pt:
+    position: Cervejeiro
   #social:
   #  - title: twitter
   #    url: #
@@ -22,7 +26,10 @@ people:
 
 - name: Inês Eugénio
   pic: ines
-  position: Head Brewer
+  en:
+    position: Head Brewer
+  pt:
+    position: Cervejeiro
 #  pt:
 # -  name: Filipe Matos
 #    pic: 1
@@ -68,7 +75,7 @@ contact:
   - address: +351 919237206
     icon: phone
   - address: Rua David Lopes 23 A-B
-    icon: map-marker-alt
+    icon: map-marker
   - address: ippyfil@posteo.net
     icon: at
 
