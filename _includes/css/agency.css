@@ -221,6 +221,10 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
+.navbar-default .nav li span {
+    color: #fff;
+}
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
@@ -267,6 +271,12 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .navbar-default .nav li a.lang-link {
+        padding-right: 2px;
+        padding-left: 2px;
+        display: inline-block;
     }
 }
 
@@ -369,6 +379,12 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-logo {
+    border-radius: 50%;
+    padding: 10px;
+    background: #{{ site.data.template.color.primary }};
 }
 
 #portfolio .portfolio-item {
