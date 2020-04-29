@@ -1,18 +1,18 @@
 <!-- Portfolio Modals -->
 {% assign posts=site.posts | where:"lang", page.lang %}
-{% for post in site.posts %}
+{% for post in posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-8 col-lg-offset-2 modal-body-container">
           <div class="modal-body">
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl">
+                </div>
+              </div>
+            </div>
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             <div class="row  column-container">
