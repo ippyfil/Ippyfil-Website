@@ -3,13 +3,13 @@
 <metadata>
 <vectornator:setting key="DisplayWhiteBackground" value="0"/>
 <vectornator:setting key="RulersVisible" value="1"/>
-<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="GridSpacing" value="36"/>
 <vectornator:setting key="Units" value="Pixels"/>
 <vectornator:setting key="DynamicGuides" value="0"/>
 <vectornator:setting key="SnapToPoints" value="0"/>
 <vectornator:setting key="SnapToGrid" value="0"/>
 <vectornator:setting key="SnapToGuides" value="1"/>
-<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
 </metadata>
 <defs>
 <image id="Image" xlink:href="data:image/png;base64,
@@ -19,12 +19,12 @@ iVBORw0KGgoAAAANSUhEUgAACAAAAAgACAYAAACyp9MwAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAA
 <use opacity="1" xlink:href="#Image" transform="matrix(1 0 0 1 0 0)"/>
 </g>
 <g id="Layer 1" vectornator:layerName="Layer 1">
-<path stroke="#ffffff" stroke-width="50.97" d="M584.744+695.178L270.507+957.522C270.507+957.522+398.39+1111.33+433.969+1145.08C501.981+1209.6+575.879+1219.23+663.812+1283.22C727.819+1329.79+842.717+1462.68+860.98+1482.33C879.244+1501.99+968.369+1604.02+968.369+1604.02L1112.24+1482.16C1112.24+1482.16+1027+1378.02+1010.87+1356.58C994.742+1335.14+884.187+1198.62+849.624+1127.4C802.141+1029.57+805.682+955.131+754.163+876.813C727.211+835.842+598.352+682.851+598.352+682.851" fill="none" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+<path stroke="#ffffff" stroke-width="50.97" d="M270.507+957.522C270.507+957.522+398.39+1111.33+433.969+1145.08C501.981+1209.6+575.879+1219.23+663.812+1283.22C727.819+1329.79+842.717+1462.68+860.98+1482.33C879.244+1501.99+968.369+1604.02+968.369+1604.02L1112.24+1482.16C1112.24+1482.16+1027+1378.02+1010.87+1356.58C994.742+1335.14+884.187+1198.62+849.624+1127.4C802.141+1029.57+805.682+955.131+754.163+876.813C727.211+835.842+589.093+672.805+589.093+672.805L270.507+957.522Z" fill="none" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
 <path stroke="#ffffff" stroke-width="50.97" d="M397.425+964.544" fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
 <path stroke="#ffffff" stroke-width="10.45" d="M191.134+540.365C191.134+540.365+152.149+537.425+176.103+626.553C199.216+712.553+240.307+802.638+282.835+842.908C292.352+834.799+360.049+781.689+361.599+780.361C355.949+749.587+356.154+702.095+368.29+666.959C385.093+618.311+333.854+584.541+308.657+595.341C281.984+606.772+276.329+624.127+270.603+666.334C267.663+687.999+236.385+678.032+227.321+608.928C218.258+539.823+191.134+540.365+191.134+540.365Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
-<path stroke="#ffffff" stroke-width="10.45" d="M214.92+299.674C214.231+274.215+215.447+243.516+245.503+239.825C275.559+236.134+278.708+264.649+277.405+291.237C276.087+318.13+267.358+351.972+248.931+356.359C232.321+360.314+216.238+348.45+214.92+299.674Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#ffffff" stroke-width="10.45" d="M262.582+412.559C261.894+387.099+263.109+356.401+293.166+352.71C323.222+349.018+326.371+377.534+325.067+404.122C323.749+431.014+315.02+464.856+296.593+469.244C279.983+473.198+263.9+461.334+262.582+412.559Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 <path stroke="#ffffff" stroke-width="10.45" d="M167.768+454.823" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
-<path stroke="#ffffff" stroke-width="10.45" d="M305.926+461.061C309.01+449.91+314.063+425.104+338.905+431.642C361.444+437.573+353.615+476.72+353.615+476.72C353.615+476.72+346.971+516.342+322.06+505.428C297.148+494.515+303.395+470.214+305.926+461.061Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#ffffff" stroke-width="10.45" d="M401.251+527.12C404.335+515.969+409.388+491.163+434.23+497.7C456.769+503.631+448.939+542.779+448.939+542.779C448.939+542.779+442.296+582.401+417.384+571.487C392.472+560.573+398.719+536.272+401.251+527.12Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 <path stroke="#ffffff" stroke-width="10.45" d="M663.793+885.476C663.793+885.476+647.803+857.361+627.48+857.361C605.35+857.361+602.318+884.776+566.735+886.394C531.152+888.011+525.642+848.427+493.406+874.197C456.233+903.913+383.673+966.872+383.673+966.872C383.673+966.872+434.612+1031.44+453.601+1035.38C483.438+1041.57+485.141+1029.79+517.416+1035.18C548.867+1040.42+553.543+1060.02+587.725+1058.65C619.398+1057.38+621.736+1030.56+653.525+1025.76C685.314+1020.96+703.271+1035.61+726.541+1035.42C746.423+1035.27+728.393+983.92+709.387+951.302C695.733+927.87+682.148+907.912+664.027+885.242" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 <path stroke="#ffffff" stroke-width="50.97" d="M511.07+362.252L1437.58+362.252L1437.58+570.696L511.07+570.696L511.07+362.252Z" fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 </g>
