@@ -5,8 +5,8 @@ subtitle: Blonde Ale
 layout: default
 modal-id: 1
 date: 2019-11-15
-img: goldcrowd.png
-thumbnail: goldcrowd.png
+img: tapiche3_clipped.png
+thumbnail: tapiche3_clipped.png
 alt: image-alt
 lang: en
 project-date: November 2019
