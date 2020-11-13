@@ -10,9 +10,6 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.portofolio-item img {
-    max-height: 435 px;
-}
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
@@ -429,6 +426,9 @@ section h3.section-subheading {
     text-align: center;
     font-size: 20px;
     color: #fff;
+}
+#portofolio .portofolio-item img {
+    max-height: 435 px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
