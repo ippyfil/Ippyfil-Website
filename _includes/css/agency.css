@@ -10,8 +10,8 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.portofolio-item img{
-max-height: 435 px;
+.portofolio-item img {
+    max-height: 435 px;
 }
 
 .text-muted {
