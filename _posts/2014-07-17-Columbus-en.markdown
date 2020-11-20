@@ -11,5 +11,7 @@ alt: image-alt
 lang: en
 project-date: November 2019
 description: An India Pale Ale full of Colombus hop which gives some fresh herbal flvour and aroma. Perfect the lovers of bitter ales.
-
+alc: 5
+ibu: 30
+ebc: 20
 ---
