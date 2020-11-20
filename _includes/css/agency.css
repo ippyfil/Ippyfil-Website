@@ -401,11 +401,27 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
-#portofolio .portofolio-char {
+#portofolio .portfolio-circle {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
     background: #{{ site.data.template.color.primary }};
+}
+
+.portfolio-circle:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.portfolio-circle-txt {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  /* NOT IMPORTANT */
+  font-family: arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
