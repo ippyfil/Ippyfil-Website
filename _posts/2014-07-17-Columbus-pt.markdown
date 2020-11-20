@@ -11,4 +11,7 @@ alt: image-alt
 lang: pt
 project-date: Novembro 2019
 description: Uma Índia Pale Ale cheia de lúpulo Columbus que traz um sabor aromático. Perfeita para os amantes de cervejas amargas.
+Alc / Vol: 6,5
+IBU: 35
+EBC: 20
 ---
