@@ -11,5 +11,8 @@ alt: image-alt
 lang: en
 project-date: November 2019
 description: This beer was a special edition made for the crowdfunding campaing. It's a Blonde Ale with Golding and Nugget organic hops from our garden.
+alc: 5
+ibu: 30
+ebc: 20
 ---
 
