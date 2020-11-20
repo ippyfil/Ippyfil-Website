@@ -401,6 +401,13 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
+#portofolio .portofolio-char {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    background: #{{ site.data.template.color.primary }};
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
