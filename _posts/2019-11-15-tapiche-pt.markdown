@@ -5,8 +5,8 @@ subtitle: American Pale Ale
 layout: default
 modal-id: 1
 date: 2019-11-15
-img: columbus_hop.png
-thumbnail: columbus_thumbnail.png
+img: tapiche3.png
+thumbnail: tapiche3.png
 alt: image-alt
 lang: pt
 project-date: November 2019
