@@ -66,6 +66,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-wood {
+    background-image: wood.jpg
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
