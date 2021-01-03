@@ -934,6 +934,10 @@ ul.social-buttons li a:active {
     vertical-align: middle;
 }
 
+.portfolio-modal .modal-content .img-col {
+    height: 100%;
+}
+
 .portfolio-modal .modal-content img {
     height: calc(98vh - 114px);
     max-height: 550px;
