@@ -911,7 +911,12 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     font-size: 18px;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;;
     padding: 20px 0;
+}
+
+.portfolio-modal .modal-content ul.list-inline > li {
+    margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content ul.list-inline ul.stats-badges {
