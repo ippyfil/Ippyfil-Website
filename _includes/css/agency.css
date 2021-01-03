@@ -856,9 +856,20 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.portfolio-modal {
+    height: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.portfolio-modal::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
     border: 0;
     border-radius: 0;
     text-align: center;
@@ -866,11 +877,24 @@ ul.social-buttons li a:active {
     -webkit-box-shadow: none;
     box-shadow: none;
     background: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10%;
+    max-width: 700px;
+    max-height: 100vh;
+}
+
+.portfolio-modal .modal-content .modal-body {
+    padding: 20px;
+    background: rgba(190, 190, 190, 0.95);
+    overflow: hidden;
+    white-space: normal;
 }
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    margin-top: 0;
+    font-size: 2.2em;
 }
 
 .portfolio-modal .modal-content p {
@@ -886,21 +910,40 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
-    margin-bottom: 30px;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.portfolio-modal .modal-content ul.list-inline ul.stats-badges {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-modal .modal-content ul.list-inline ul.stats-badges > li{
+    background: #fdd145;
+    border-radius: 50%;
+    white-space: pre-wrap;
+    width: 80px;
+    text-align: center;
+    height: 80px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 15px 0;
+    vertical-align: middle;
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content .modal-body-container {
-    background: rgba(190, 190, 190, 0.95);
+    height: calc(98vh - 114px);
+    max-height: 550px;
+    padding: 20px;
 }
 
 .portfolio-modal .close-modal {
     position: absolute;
     top: 10px;
-    right: 5px;
+    right: 25px;
     width: 50px;
     height: 50px;
     background-color: transparent;
