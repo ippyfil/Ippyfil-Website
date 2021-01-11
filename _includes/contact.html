@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Contacta-nos</h2>
-        <h3 class="section-subheading text-muted">Aproveita aqui para nos encontrar ou deixar uma mensagem</h3>
+        <h2 class="section-heading">Contact Us</h2>
+        <h3 class="section-subheading text-muted">Drop us a Message of Find Us</h3>
       </div>
     </div>
     <div class="row">
@@ -26,27 +26,30 @@
       <div class="col-sm-6">
         <div class="row">
           <div class="col-lg-12">
-            <form
-              action="https://formspree.io/f/mrgoropb"
-              method="POST"
-            >
-               <label>
-                Your Name:
-                <input type="text" name="name">
-              </label>
-              <label>
-                Your email:
-                <input type="text" name="mail">
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-
-              <!-- your other form fields go here -->
-
-              <button type="submit">Send</button>
-            </form>
+            <form  action="https://formspree.io/f/mrgoropb" id="contactForm" method="POST">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="control-group form-group">
+        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+      </div>
+      <div class="control-group form-group">
+        <input type="email" name="email" class="form-control" placeholder="Email" required data-validation-required-message="Please enter your valid email.">
+      </div>
+      <div class="control-group form-group">
+        <input type="phone" name="phone" class="form-control" placeholder="Phone" required data-validation-required-message="Please enter your valid phone.">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="control-group form-group">
+        <textarea name="message" class="form-control" placeholder="Your message"></textarea>
+      </div>
+    </div>
+      <div class="clearfix"></div>
+      <div class="col-lg-12 text-center">
+        <input type="submit" value="Send" class="btn btn-xl">
+      </div>
+  </div>
+</form>
           </div>
         </div>
       </div>
