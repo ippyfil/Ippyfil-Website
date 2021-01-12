@@ -1,0 +1,4 @@
+- name: shop
+  link: /shop
+  new_window: false
+  highlight: false
