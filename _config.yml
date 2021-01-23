@@ -88,3 +88,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  sliders:
+    output: true
