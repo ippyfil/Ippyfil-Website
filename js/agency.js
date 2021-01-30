@@ -63,11 +63,14 @@ function isVisible(el) {
     }
 }
 
-setInterval(function(){
+setInterval(function() {
     var j=0;
     var elements = document.querySelectorAll('.carousel__control--forward');
+    if (elements.length == 0) {
+        return
+    }
     for(i=(elements.length - 1);i>-1;i--) {
       if(isVisible(elements[i])) j=i;
-}
-elements[j].click();
+    }
+    elements[j].click();
 }, 7000);
