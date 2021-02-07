@@ -92,3 +92,5 @@ permalink: pretty
 collections:
   sliders:
     output: true
+  shop-items:
+    output: true
