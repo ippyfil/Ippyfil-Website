@@ -2,7 +2,8 @@
 color:
   primary: fed136
   secondary: fec503   
-  secondary-dark: 0000ff
+  secondary-dark: 333
+  header-footer: 000d1a
   muted: 777
 
 # Font Families

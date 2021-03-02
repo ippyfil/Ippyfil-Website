@@ -182,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #{{ site.data.template.color.secondary-dark }};
+    background-color: #{{ site.data.template.color.header-footer}};
 }
 
 .navbar-default .navbar-brand {
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #{{ site.data.template.color.secondary-dark }};
+    background-color: #{{ site.data.template.color.header-footer }};
     margin-top: 20px;
 }
 
@@ -251,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-collapse.in, .navbar-collapse.collapsing {
-    background-color: #{{ site.data.template.color.secondary-dark }};
+    background-color: #{{ site.data.template.color.header-footer }};
 }
 
 @media(min-width:768px) {
@@ -277,7 +277,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #{{ site.data.template.color.secondary-dark }};
+        background-color: #{{ site.data.template.color.header-footer }};
         box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
     }
 
@@ -821,7 +821,7 @@ section#contact .text-danger {
 
 footer {
     padding: 45px 0 25px 0;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.header-footer}};
 }
 
 footer img {
@@ -1117,7 +1117,9 @@ footer .footer-section {
     }
 
     /* Comment to "de"center text*/
-    .portfolio-modal .modal-content .column-container {
+    .portfolio-modal .modal-content .column-
+
+     {
         display: flex;
         align-items: center;
     }
