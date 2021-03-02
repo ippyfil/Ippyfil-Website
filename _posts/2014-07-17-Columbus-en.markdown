@@ -1,17 +1,15 @@
 ---
-ref: Columbus
-title: Columbus
+ref: Manu
+title: Manu
 subtitle: India Pale Ale
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: columbus_hop.png
-thumbnail: columbus_thumbnail.png
+img: manu_bottle.png
+thumbnail: manu_bottle.png
 alt: image-alt
 lang: en
-project-date: November 2019
-description: An India Pale Ale full of Colombus hop which gives some fresh herbal flvour and aroma. Perfect the lovers of bitter ales.
-alc: 5
-ibu: 30
-ebc: 20
+description: An India Pale Ale full of Citra and El Dorado hops which gives some fresh citrous and tropical flvour and aroma. Perfect for the hop lovers.
+alc: 7
+ibu: 60
+ebc: 30
 ---
