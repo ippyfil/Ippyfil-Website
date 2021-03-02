@@ -5,8 +5,8 @@ subtitle: Coffee Stout
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: labedition_clipped.png
-thumbnail: labedition_clipped.png
+img: blackhole_bottle.png
+thumbnail: blackhole_bottle.png
 alt: image-alt
 lang: en
 project-date: March 2019
