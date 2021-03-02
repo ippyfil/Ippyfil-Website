@@ -1008,7 +1008,7 @@ footer .footer-section {
 
 .portfolio-modal .modal-content .modal-body {
     padding: 20px;
-    background: rgba(190, 190, 190, 0.95);
+    background: #fff;
     overflow: hidden;
     white-space: normal;
 }
