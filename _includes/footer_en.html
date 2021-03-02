@@ -1,0 +1,76 @@
+<footer id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 footer-section">
+        <img src="{{site.baseurl}}/img/logos/ippyfil_transparent.png" alt="logo" class="img-responsive">
+      </div>
+      <div class="col-md-2 footer-section">
+        <h4 class="title">Links</h4>
+        <ul class="list-inline information-list">
+          <li>
+          <a class="page-scroll" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">Beers</a>
+          </li>
+          <li>
+            <a  href="{{ 'shop' | prepend: site.baseurl | prepend: site.url }}">Shop</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">Team</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 footer-section">
+        <h4 class="title">Connect to Ippyfil</h4>
+        <ul class="list-inline information-list">
+          {% for line in address.line %}
+          <li>
+            {% if forloop.index == 0 %}
+            <i class="fa fa-plus"></i>
+            {% endif %}
+            <span>{{ line }}</span>
+        </li>
+          {% endfor %}
+          {% for contact in site.contact %}
+          <li><i class="fa fa-{{contact.icon}}"></i><span>{{ contact.address }}</span></li>
+          {% endfor %}
+        </ul>
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4 footer-section">
+        <h4 class="title">Contact Us</h4>
+        <form  class="row" action="https://formspree.io/f/mrgoropb" id="contactForm" method="POST">
+          <div class="control-group form-group col-xs-12">
+            <input type="email" name="email" class="form-control" placeholder="Email" required data-validation-required-message="Please inser a valid e-mail">
+          </div>
+          <div class="control-group form-group col-xs-12">
+            <textarea name="message" class="form-control" placeholder="Message" required data-validation-required-message="Please write here your message"></textarea>
+          </div>
+          <div class="col-xs-12">
+            <input type="submit" value="Send" class="btn btn-primary col-xs-12">
+          </div>
+        </form>
+      </div>
+      <hr class="col-md-12">
+      <div class="col-md-12 text-center">
+        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+        <span class="separator">|</span>
+        <ul class="list-inline quicklinks">
+          <li><a href="#">Privacy Policy</a>
+          </li>
+          <li><a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
