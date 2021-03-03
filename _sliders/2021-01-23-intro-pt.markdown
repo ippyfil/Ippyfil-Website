@@ -2,7 +2,5 @@
 lead: Bem-Vindo à Fábrica!
 heading: Ippyfil
 description: Scientifically Brewed
-button: Saber mais
-buttonlink: '#services'
 image: /img/header-bg.jpg
 ---

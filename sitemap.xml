@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://ippyfil.pt#page-top</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt#services</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt#portfolio</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt#about</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt#team</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt#contact</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
+<url>
+  <loc>http://ippyfil.pt</loc>
+  <priority>1.0</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2021-03-03</lastmod>
+</url>
