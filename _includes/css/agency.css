@@ -14,6 +14,10 @@ body {
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
+.team-positon {
+    color: #{{ site.data.template.color.muted }};
+    font-size: 20px;
+}
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
@@ -1040,7 +1044,7 @@ footer .footer-section {
     margin-bottom: 20px;
 }
 
-.portfolio-modal .modal-content ul.list-inline ul.stats-badges {
+.portfolio-modal .modal-content  ul.stats-badges {
     margin-top: 0;
     padding: 0;
     display: flex;

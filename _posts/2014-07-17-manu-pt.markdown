@@ -1,0 +1,15 @@
+---
+ref: Manu
+title: Manu
+subtitle: India Pale Ale
+layout: default
+modal-id: 2
+img: manu_bottle.png
+thumbnail: manu_bottle.png
+alt: image-alt
+lang: pt
+description: Uma India Pale Ale cheia de Citra, Centenial e El Dorado, lúpulos que fornecem amoras cítros e tropicais, levando-te directamente para Manu, uma área protegida da floresta Amazónia.  
+alc: 7
+ibu: 60
+ebc: 30
+---
