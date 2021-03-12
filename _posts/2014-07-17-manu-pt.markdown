@@ -8,7 +8,7 @@ img: manu_bottle.png
 thumbnail: manu_bottle.png
 alt: image-alt
 lang: pt
-description: Uma India Pale Ale cheia de Citra, Centenial e El Dorado, lúpulos que fornecem amoras cítros e tropicais, levando-te directamente para Manu, uma área protegida da floresta Amazónia.  
+description: Uma IPA a transbordar de lúpulo. Uma explosão de Citra, Centennia e El Dorado, cítrica e plena de tropicalismo, que te vai levar directamente a <i>Manu</i>, uma área protegida da floresta Amazónica, onde o Jaguar encontra refúgio da destruição provocada pela mão humana. O equilibrio entre o amargor, o malte e o aroma do lúpulo bebe-se com a mesma graciosidade com que o Jaguar atravessa a floresta densa. Refugia-te do caos da cidade nesta bomba de sabor.   
 alc: 7
 ibu: 60
 ebc: 30
