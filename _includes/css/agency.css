@@ -559,6 +559,18 @@ section h3.slim {
     font-style: italic;
 }
 
+#shop_dev {
+    height: calc(100vh - 391px);
+    min-height: 600px;
+}
+
+@media(min-width:767px) {
+    #shop_dev {
+        min-height: 500px;
+        padding-top: 200px;
+    }
+}
+
 #portfolio *, #shop * {
     z-index: 2;
 }
