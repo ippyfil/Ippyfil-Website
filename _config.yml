@@ -1,5 +1,5 @@
 #url: https://ippyfil.pt/
-#baseurl: /
+baseurl: /
 index: pt
 
 # Site settings
@@ -18,7 +18,7 @@ people:
     description: Astrophycicist, began brewing beer while studying in Amsterdam. Passioin for craft beer for several years.
   pt:
     position: Cervejeiro
-    description: Astrofísico de formação, começou a produzir em Amsterdão enquanto estudava.Apaixonado pela cerveja artesnal à vaários anos. É entusiasta da permcultura e agricultura regenerativa e encontra na Ippyfil uma forma de ligar os dois, a paixão por regenerar ecosistemas plantando futuros ingredientes para a cerveja.
+    description: Astrofísico de formação, começou a produzir em Amsterdão enquanto estudava. Apaixonado pela cerveja artesanal à vários anos, é entusiasta da permacultura e agricultura regenerativa e encontra na Ippyfil uma forma de ligar os dois, a paixão por regenerar ecossistemas plantando futuros ingredientes para a cerveja.
   #social:
   #  - title: twitter
   #    url: #
