@@ -21,10 +21,6 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
-
-
-
-
 .team-positon {
     color: #{{ site.data.template.color.muted }};
     font-size: 20px;
@@ -339,16 +335,15 @@ header {
     bottom: 0;
     top: 0;
     z-index: 10;
-}
-
-.hero .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display: grid;
+    padding-top: 85px;
+    height: 100vh;
     color: #fff;
     text-shadow: 2px 2px rgba(0,0,0,0.5);
+    align-content: center;
 }
 
-.hero .intro-text .intro-lead-in {
+.hero .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
@@ -356,7 +351,7 @@ header {
     line-height: 22px;
 }
 
-.hero .intro-text .intro-heading {
+.hero .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -366,12 +361,7 @@ header {
 }
 
 @media(min-width:768px) {
-    .hero .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    .hero .intro-text .intro-lead-in {
+    .hero .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
@@ -379,7 +369,7 @@ header {
         line-height: 40px;
     }
 
-    .hero .intro-text .intro-heading {
+    .hero .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
@@ -439,7 +429,7 @@ section h3.slim {
 
 #intro h2 {
     word-spacing: 100vw;
-    font-size: 55px;
+    font-size: 39px;
     text-shadow: 4px 6px #{{ site.data.template.color.primary }};
 }
 
@@ -450,6 +440,12 @@ section h3.slim {
 
 #intro span.highlight {
     font-size: 18px;
+}
+
+@media(min-width:576px) {
+    #intro h2 {
+        font-size: 55px;
+    }
 }
 
 .service-heading {
@@ -561,7 +557,7 @@ section h3.slim {
 
 #shop_dev {
     height: calc(100vh - 391px);
-    min-height: 600px;
+    min-height: 655px;
 }
 
 @media(min-width:767px) {
@@ -930,7 +926,7 @@ footer ul.information-list li {
     width: 100%;
 }
 
-footer ul.information-list li i {
+footer ul.information-list li svg {
     margin-right: 10px
 }
 
@@ -1082,58 +1078,51 @@ footer .footer-section {
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    margin-top: 0;
-    font-size: 2.2em;
+    margin: 0 0 5px 0;
+    font-size: 33px;
 }
 
-.portfolio-modal .modal-content p {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
+.portfolio-modal .modal-content h3 {
     font-family: {{ site.data.template.font.secondary }};
+    text-transform: none;
     font-size: 16px;
     font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.portfolio-modal .modal-content .description {
     margin-top: 0;
-    font-size: 18px;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;;
-    padding: 20px 0;
-}
-
-.portfolio-modal .modal-content ul.list-inline > li {
-    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: {{ site.data.template.font.primary }};
+    padding-top: 20px;
+    text-align: justify;
 }
 
 .portfolio-modal .modal-content  ul.stats-badges {
-    margin-top: 0;
+    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
+    list-style: none;
 }
 
-.portfolio-modal .modal-content ul.list-inline ul.stats-badges > li{
-    background: #fdd145;
-    border-radius: 50%;
-    white-space: pre-wrap;
-    width: 80px;
-    text-align: center;
-    height: 80px;
-    line-height: 25px;
-    display: inline-block;
-    padding: 15px 0;
-    vertical-align: middle;
+.portfolio-modal .modal-content  ul.stats-badges li {
+    padding: 10px 0;
+}
+
+
+.portfolio-modal .modal-content  ul.stats-badges li img,
+.portfolio-modal .modal-content  ul.stats-badges li svg {
+    margin-right: 10px;
+    width: 26px;
+    font-size: 26px;
 }
 
 .portfolio-modal .modal-content .img-col {
     height: 100%;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content .img-col img {
     height: calc(98vh - 114px);
     max-height: 550px;
     padding: 20px;
@@ -1174,24 +1163,6 @@ footer .footer-section {
     transform: rotate(90deg);
 }
 
-
-@media(min-width:768px) {
-    .portfolio-modal .modal-content p {
-        text-align: left;
-    }
-
-    .portfolio-modal .modal-content ul.list-inline {
-        text-align: left;
-    }
-
-    /* Comment to "de"center text*/
-    .portfolio-modal .modal-content .column-
-
-     {
-        display: flex;
-        align-items: center;
-    }
-}
 
 ::-moz-selection {
     text-shadow: none;

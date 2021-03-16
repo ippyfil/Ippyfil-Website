@@ -1,5 +1,5 @@
 <!-- Navigation -->
-{% if page.url == "/" %}
+{% if page.layout == "default" %}
    <nav class="navbar navbar-default navbar-fixed-top">
 {% else %}
    <nav class="navbar navbar-default navbar-fixed-top filled">
@@ -21,25 +21,49 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
-          <a href="#page-top"></a>
+          {% unless page.layout == "shop" %}
+             <a href="#page-top"></a>
+          {% else %}
+             <a href="{{ site.baseurl | prepend: site.url }}"></a>
+          {% endunless %}
         </li>
         <li>
-          <a class="page-scroll" href="{{ '#services' | prepend: site.baseurl | prepend: site.url }}">Serviços</a>
+          {% unless page.layout == "shop" %}
+             <a class="page-scroll" href="#services">Serviços</a>
+          {% else %}
+             <a href="{{ '#services' | prepend: site.baseurl | prepend: site.url }}">Serviços</a>
+          {% endunless %}
         </li>
         <li>
-          <a class="page-scroll" href="{{ '#portfolio' | prepend: site.baseurl | prepend: site.url }}">Cervejas</a>
+          {% unless page.layout == "shop" %}
+             <a class="page-scroll" href="#portfolio">Cervejas</a>
+          {% else %}
+             <a href="{{ '#portfolio' | site.baseurl | prepend: site.url }}">Cervejas</a>
+          {% endunless %}
         </li>
         <li>
           <a  href="{{ 'shop' | prepend: site.baseurl | prepend: site.url }}">Loja</a>
         </li>
         <li>
-          <a class="page-scroll" href="{{ '#about' | prepend: site.baseurl | prepend: site.url }}">Sobre</a>
+          {% unless page.layout == "shop" %}
+             <a class="page-scroll" href="#about">Sobre</a>
+          {% else %}
+             <a href="{{ '#about' | site.baseurl | prepend: site.url }}">Sobre</a>
+          {% endunless %}
         </li>
         <li>
-          <a class="page-scroll" href="{{ '#team' | prepend: site.baseurl | prepend: site.url }}">Equipa</a>
+          {% unless page.layout == "shop" %}
+             <a class="page-scroll" href="#team">Equipa</a>
+          {% else %}
+             <a href="{{ '#team' | site.baseurl | prepend: site.url }}">Equipa</a>
+          {% endunless %}
         </li>
         <li>
-          <a class="page-scroll" href="{{ '#contact' | prepend: site.baseurl | prepend: site.url }}">Contacta-nos</a>
+          {% unless page.layout == "shop" %}
+             <a class="page-scroll" href="#contact">Contacta-nos</a>
+          {% else %}
+             <a href="{{ '#contact' | site.baseurl | prepend: site.url }}">Contacta-nos</a>
+          {% endunless %}
         </li>
         <li>
           <a class="lang-link" href="{{ '' | prepend: site.baseurl | prepend: site.url }}">PT</a>

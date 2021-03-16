@@ -7,20 +7,43 @@
       <div class="col-md-2 footer-section">
         <h4 class="title">Links</h4>
         <ul class="list-inline information-list">
-          <li>
-          <a class="page-scroll" href="#services">Serviços</a>
+          <li class="hidden">
+            {% unless page.layout == "shop" %}
+               <a href="#page-top"></a>
+            {% else %}
+               <a href="{{ site.baseurl | prepend: site.url }}"></a>
+            {% endunless %}
           </li>
           <li>
-            <a class="page-scroll" href="#portfolio">Cervejas</a>
+            {% unless page.layout == "shop" %}
+               <a class="page-scroll" href="#services">Serviços</a>
+            {% else %}
+               <a href="{{ '#services' | prepend: site.baseurl | prepend: site.url }}">Serviços</a>
+            {% endunless %}
+          </li>
+          <li>
+            {% unless page.layout == "shop" %}
+               <a class="page-scroll" href="#portfolio">Cervejas</a>
+            {% else %}
+               <a href="{{ '#portfolio' | site.baseurl | prepend: site.url }}">Cervejas</a>
+            {% endunless %}
           </li>
           <li>
             <a  href="{{ 'shop' | prepend: site.baseurl | prepend: site.url }}">Loja</a>
           </li>
           <li>
-            <a class="page-scroll" href="#about">Sobre</a>
+            {% unless page.layout == "shop" %}
+               <a class="page-scroll" href="#about">Sobre</a>
+            {% else %}
+               <a href="{{ '#about' | site.baseurl | prepend: site.url }}">Sobre</a>
+            {% endunless %}
           </li>
           <li>
-            <a class="page-scroll" href="#team">Equipa</a>
+            {% unless page.layout == "shop" %}
+               <a class="page-scroll" href="#team">Equipa</a>
+            {% else %}
+               <a href="{{ '#team' | site.baseurl | prepend: site.url }}">Equipa</a>
+            {% endunless %}
           </li>
         </ul>
       </div>
@@ -30,18 +53,18 @@
           {% for line in address.line %}
           <li>
             {% if forloop.index == 0 %}
-            <i class="fa fa-plus"></i>
+            <i class="fas fa-plus"></i>
             {% endif %}
             <span>{{ line }}</span>
         </li>
           {% endfor %}
           {% for contact in site.contact %}
-          <li><i class="fa fa-{{contact.icon}}"></i><span>{{ contact.address }}</span></li>
+          <li><i class="fas fa-{{contact.icon}}"></i><span>{{ contact.address }}</span></li>
           {% endfor %}
         </ul>
         <ul class="list-inline social-buttons">
           {% for network in site.social %}
-          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+          <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
           </li>
           {% endfor %}
         </ul>

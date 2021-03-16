@@ -3,33 +3,42 @@
 {% for post in posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
-          <div class="modal-body">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <h2>{{ post.title }}</h2>
-            <hsr class="star-primary">
-            <div class="row">
-              <div class="col-sm-6 img-col">
-                <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-              </div>
-              <div class="col-sm-6"></p>
-                <ul class="list-inline item-details">
-                  <li> {{post.description}}</li>
-                  <!--<li>Date:
-                    <strong>{{ post.project-date }}</strong></li> -->
-                  <ul class="stats-badges">
-                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                    <li>Alc/Vol:<br>{{post.alc}}</li>
-                    <li>IBU:<br>{{post.ibu}}</li>
-                    <li>EBC:<br>{{post.ebc}}</li>
-                  </ul>
-                </ul>
-              </div>
-            </div>
+    <div class="modal-body">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <h2>{{ post.title }}</h2>
+      <h3 class="text-muted">{{post.subtitle}}</h3>
+      <hsr class="star-primary">
+        <div class="col-sm-6 img-col">
+          <img src="{{site.baseurl}}/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+        </div>
+        <div class="col-sm-6 description">
+          <div>{{post.description}}</div>
+          <!--<li>Date:
+            <strong>{{ post.project-date }}</strong></li> -->
+          <ul class="stats-badges">
+            <li>
+              <img src="{{site.baseurl}}/img/icons/alcohol.svg" alt="alcohol">
+              {{post.alc}}%
+            </li>
+            <li>
+              <img src="{{site.baseurl}}/img/icons/hop.svg" alt="IBU">
+              {{post.ibu}} IBU
+            </li>
+            <li>
+              {% if post.ebc_color == 'false' %}
+              <i class="far fa-question-circle"></i>
+              {% else %}
+              <img src="{{site.baseurl}}/img/icons/ebc.svg" style="fill:#{{post.ebc_color}}" alt="EBC">
+              {% endif %}
+              {{post.ebc}} EBC
+            </li>
+          </ul>
+        </div>
     </div>
   </div>
 </div>
