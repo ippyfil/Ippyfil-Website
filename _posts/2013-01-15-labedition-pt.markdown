@@ -10,9 +10,9 @@ thumbnail: labeiditon_bottle.png
 alt: image-labedition
 lang: pt
 description: <p>Esta é a nossa série de cervejas experimentais, onde incluímos sazonais, experiêncais malucas e até cervejas históricas!</p> <p class="small">Aqui entram os mais diversos ingredientes, muitos deles produzidos por nós como o lúpulo, alfarroba, laranja, malaguetas ou mel, enquanto continuamos a produzir novos ingredientes para experimentar na cerveja.</p> <p class="small">Descobre na nossa loja as que temos disponíveis de momento ou nas redes sociais.</p>
-alc: 0-20
-ibu: 0-100
-ebc: 0-1000
+alc: '-'
+ibu: '-'
+ebc: '-'
 ebc_color: 'false'
 ---
 

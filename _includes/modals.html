@@ -33,7 +33,9 @@
               {% if post.ebc_color == 'false' %}
               <i class="far fa-question-circle"></i>
               {% else %}
-              <img src="{{site.baseurl}}/img/icons/ebc.svg" style="fill:#{{post.ebc_color}}" alt="EBC">
+              <svg fill="#{{post.ebc_color}}">
+                <circle cx="15" cy="15" r="13" stroke="black" stroke-width="2" />
+              </svg> 
               {% endif %}
               {{post.ebc}} EBC
             </li>

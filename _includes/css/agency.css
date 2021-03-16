@@ -1104,6 +1104,8 @@ footer .footer-section {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .portfolio-modal .modal-content  ul.stats-badges li {
@@ -1114,8 +1116,10 @@ footer .footer-section {
 .portfolio-modal .modal-content  ul.stats-badges li img,
 .portfolio-modal .modal-content  ul.stats-badges li svg {
     margin-right: 10px;
-    width: 26px;
     font-size: 26px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
 }
 
 .portfolio-modal .modal-content .img-col {
