@@ -1065,7 +1065,7 @@ footer .footer-section {
     background: none;
     vertical-align: middle;
     display: inline-block;
-    margin: 0 10%;
+    margin: 0 10px 0 3px;
     max-width: 700px;
     max-height: 100vh;
 }
