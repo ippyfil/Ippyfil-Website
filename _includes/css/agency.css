@@ -571,6 +571,14 @@ section h3.slim {
     z-index: 2;
 }
 
+#shop {
+    padding: 120px 0;
+}
+
+#shop h2 {
+    margin-bottom: 75px;
+}
+
 @media(min-width:767px) {
     .portfolio-item {
         margin: 0 0 30px;

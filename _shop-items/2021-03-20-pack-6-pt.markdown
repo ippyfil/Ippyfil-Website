@@ -1,0 +1,16 @@
+---
+title: Pack 6
+img: labeiditon_bottle.png
+thumbnail: labeiditon_bottle.png
+alt: image-labedition
+item-id: 2
+description: <p>Pack customizável de 6 cervejas. Escolhe as tuas cervejas em baixo.</p>
+price: 18
+choices: Tapiche (APA), Manu (IPA), Black Hole (Cofee Stout), Lab
+choiceIds: 1,2,3,4
+size: 6
+order: 2
+lang: pt
+layout: default
+---
+

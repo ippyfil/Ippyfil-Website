@@ -1,0 +1,16 @@
+---
+title: Pack 3
+img: labeiditon_bottle.png
+thumbnail: labeiditon_bottle.png
+alt: image-labedition
+item-id: 1
+description: <p>Pack customizável de 3 cervejas. Escolhe as tuas cervejas em baixo.</p>
+price: 10
+choices: Tapiche (APA), Manu (IPA), Black Hole (Cofee Stout), Lab
+choiceIds: 1, 2, 3, 4
+size: 3
+order: 1
+lang: pt
+layout: default
+---
+

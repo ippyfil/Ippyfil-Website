@@ -1,7 +1,7 @@
 <!-- Portfolio Modals -->
-{% assign shop=site.shop-items | where:"lang", page.lang %}
+{% assign shop=site.shop-items | sort:"order" | where:"lang", page.lang %}
 {% for item in shop %}
-<div class="portfolio-modal modal fade" id="portfolioModal{{ item.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="shop-modal modal fade" id="shopModal-{{ item.item-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="modal-body">
       <div class="close-modal" data-dismiss="modal">
@@ -14,18 +14,11 @@
       <hr class="star-primary">
       <div class="row">
         <div class="col-sm-6 img-col">
-          <img src="{{site.baseurl}}/img/portfolio/{{ item.img }}" class="img-responsive img-centered" alt="{{ item.alt }}">
+          <img src="{{site.baseurl}}/img/shop/{{ item.img }}" class="img-responsive img-centered" alt="{{ item.alt }}">
         </div>
         <div class="col-sm-6"></p>
           <ul class="list-inline item-details">
             <li> {{item.description}}</li>
-            <li>Date:
-              <strong>{{ item.project-date }}</strong></li>
-            <ul class="stats-badges">
-              <li>Alc/Vol:<br>{{item.alc}}</li>
-              <li>IBU:<br>{{item.ibu}}</li>
-              <li>EBC:<br>{{item.ebc}}</li>
-            </ul>
           </ul>
         </div>
       </div>
