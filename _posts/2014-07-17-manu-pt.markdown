@@ -6,7 +6,8 @@ subtitle: Uma IPA a transbordar de lúpulo
 layout: default
 modal-id: 2
 img: manu_bottle.png
-thumbnail: manu_bottle.png
+img: manu_soon.png
+thumbnail: manu_soon.png
 alt: image-alt
 lang: pt
 description: <p>Uma explosão de Citra, Centennia e El Dorado, cítrica e plena de tropicalismo, que te vai levar directamente a <i>Manu</i>, uma área protegida da floresta Amazónica, onde o Jaguar encontra refúgio da destruição provocada pela mão humana.</p> <p >O equilibrio entre o amargor, o malte e o aroma do lúpulo bebe-se com a mesma graciosidade com que o Jaguar atravessa a floresta densa. Refugia-te do caos da cidade nesta bomba de sabor.</p>
