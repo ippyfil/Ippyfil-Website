@@ -1,6 +1,6 @@
 ---
-lead: Bem-Vindo à Fábrica!
+lead: Bem-Vindo à nossa Fábrica!
 heading: Ippyfil
-description: Scientifically Brewed
+description: Cerveja Artesanal
 image: /img/header-bg.jpg
 ---
