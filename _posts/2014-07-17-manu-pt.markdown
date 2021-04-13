@@ -5,7 +5,6 @@ type: India Pale Ale
 subtitle: Uma IPA a transbordar de lúpulo
 layout: default
 modal-id: 2
-img: manu_bottle.png
 img: manu_soon.png
 thumbnail: manu_soon.png
 alt: image-alt
