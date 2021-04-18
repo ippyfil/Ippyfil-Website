@@ -1,0 +1,13 @@
+---
+title: Copo Ippyfil
+img: copo_ippyfil.png
+thumbnail: copo_ippyfil.png
+alt: image-copo
+item-id: 5
+description: <p>O nosso copo </p>
+price: 4
+size: 3
+order: 5
+lang: pt
+layout: default
+---

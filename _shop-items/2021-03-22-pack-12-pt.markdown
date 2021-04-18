@@ -1,0 +1,15 @@
+---
+title: Mix Pack 12
+img: labeiditon_bottle.png
+thumbnail: labeiditon_bottle.png
+alt: image-pack12
+item-id: 3
+description: <p>Pack customizável de 3 cervejas. Escolhe as tuas cervejas em baixo.</p>
+price: 10
+choices: Tapiche (APA), Manu (IPA), Black Hole (Cofee Stout), Lab
+choiceIds: 1, 2, 3, 4
+order: 3
+lang: pt
+layout: default
+---
+

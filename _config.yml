@@ -1,5 +1,5 @@
-url: https://ippyfil.pt/
-baseurl: /
+#url: https://ippyfil.pt/
+#baseurl: /
 # url: https://ippyfil.github.io
 # baseurl: /Ippyfil-Website/
 index: pt
@@ -20,7 +20,7 @@ people:
     description: Astrophycicist, began brewing beer while studying in Amsterdam. Passioin for craft beer for several years.
   pt:
     position: Cervejeiro
-    description: Astrofísico de formação, começou a produzir em Amsterdão enquanto estudava. Apaixonado pela cerveja artesanal à vários anos, é entusiasta da permacultura e agricultura regenerativa e encontra na Ippyfil uma forma de ligar os dois, a paixão por regenerar ecossistemas plantando futuros ingredientes para a cerveja.
+    description: Astrofísico de formação, começou a produzir em Amsterdão enquanto estudava. Apaixonado pela cerveja artesanal há vários anos, é entusiasta da permacultura e agricultura regenerativa e encontra na Ippyfil uma forma de ligar os dois, a paixão por regenerar ecossistemas plantando futuros ingredientes para a cerveja.
   #social:
   #  - title: twitter
   #    url: #
@@ -36,7 +36,7 @@ people:
     description:
   pt:
     position: Cervejeira
-    description:
+    description: Engenheira biológica, estudou no instituto superior técnico, onde aprendeu a arte cervejeira. Tem um grande gosto pelas inovações na area industrial mas um carinho especial pelo artesanal. Gosta de viver, de se divertir e enfrenta qualquer desafio de forma positiva e sorridente.
 #  pt:
 # -  name: Filipe Matos
 #    pic: 1

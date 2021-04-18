@@ -1,15 +1,15 @@
 ---
-title: Grade
+title: Mix Pack 24
 img: labeiditon_bottle.png
 thumbnail: labeiditon_bottle.png
-alt: image-labedition
-item-id: 3
+alt: image-pack24
+item-id: 4
 description: <p>Grade costumizável com 24 cervejas. Escolhe as tuas cervejas em baixo.</p>
 price: 60
 choices: Tapiche (APA),Manu (IPA),Black Hole (Cofee Stout),Lab
 choiceIds: 1,2,3,4
 size: 24
-order: 3
+order: 4
 lang: pt
 layout: default
 ---
