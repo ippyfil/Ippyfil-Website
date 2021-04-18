@@ -1,8 +1,9 @@
-#url: https://ippyfil.pt/
-#baseurl: /
+url: https://ippyfil.pt
+baseurl: /
 # url: https://ippyfil.github.io
 # baseurl: /Ippyfil-Website/
-index: pt
+#url: https://ippyfil-website.vercel.app/
+#index: pt
 
 # Site settings
 title: Cerveja Artesanal Craft Beer Ippyfil
