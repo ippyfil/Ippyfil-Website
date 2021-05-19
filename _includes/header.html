@@ -39,7 +39,7 @@
           {% endunless %}
         </li>
         <li>
-          <a  href="{{ 'shop' | prepend: site.baseurl | prepend: site.url }}">Loja</a>
+          <a  href="{{ 'shop' | prepend: site.baseurl | prepend: site.url | prepend: site.baseurl }}">Loja</a>
         </li>
         <li>
           {% unless page.layout == "shop" %}
